@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_spotify_sdk_login_progress">Loading…</string>
+    <string name="description2">Inicia sesión en Spotify.</string>
+    <string name="description_login_restriction_1">Spotify ya no permite hacer login a través de Facebook y Google, sólo permite el login a través de usuario y password.</string>
+    <string name="description_login_restriction_2">Si tiene una cuenta de Spotify vincualada con Facebook y Google le recomendamos que vaya a la página o aplicación oficial  de Spotify y se genere una password para el email vinculado.</string>
+</resources>

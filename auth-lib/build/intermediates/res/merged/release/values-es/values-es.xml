@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_spotify_sdk_login_progress">Loading…</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Enlace copiado en el portapapeles"</string>
+    <string name="description2">Inicia sesión en Spotify.</string>
+    <string name="description_login_restriction_1">Spotify ya no permite hacer login a través de Facebook y Google, sólo permite el login a través de usuario y password.</string>
+    <string name="description_login_restriction_2">Si tiene una cuenta de Spotify vincualada con Facebook y Google le recomendamos que vaya a la página o aplicación oficial  de Spotify y se genere una password para el email vinculado.</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar enlace"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir en el navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartir enlace"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

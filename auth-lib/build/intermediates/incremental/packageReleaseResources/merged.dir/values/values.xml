@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_spotify_sdk_login_progress"> Loading ... </string>
+    <string name="description2"> Sign in to Spotify. </string>
+    <string name="description_login_restriction_1"> Spotify API oauth no allows login through Facebook and Google, it only allows login through username and password. </string>
+    <string name="description_login_restriction_2"> If you have a Spotify account linked with Facebook and Google we recommend that you go to the official Spotify page or app and generate a password for the linked email.</string>
+</resources>

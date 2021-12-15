@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright (c) 2015-2016 Spotify AB
+4
+5    Licensed to the Apache Software Foundation (ASF) under one
+6    or more contributor license agreements.  See the NOTICE file
+7    distributed with this work for additional information
+8    regarding copyright ownership.  The ASF licenses this file
+9    to you under the Apache License, Version 2.0 (the
+10    "License"); you may not use this file except in compliance
+11    with the License.  You may obtain a copy of the License at
+12
+13    http://www.apache.org/licenses/LICENSE-2.0
+14
+15    Unless required by applicable law or agreed to in writing,
+16    software distributed under the License is distributed on an
+17    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+18    KIND, either express or implied.  See the License for the
+19    specific language governing permissions and limitations
+20    under the License.
+21-->
+22<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+23    package="com.spotify.sdk.android.authentication.sample"
+24    android:versionCode="1"
+25    android:versionName="1.0" >
+26
+27    <uses-sdk
+28        android:minSdkVersion="16"
+28-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml
+29        android:targetSdkVersion="30" />
+29-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml
+30
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:5-67
+31-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:22-64
+32
+33    <queries>
+33-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-42:15
+34        <package android:name="com.spotify.music" />
+34-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-53
+34-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:18-50
+35        <package android:name="com.spotify.music.debug" />
+35-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:9-59
+35-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:18-56
+36        <package android:name="com.spotify.music.canary" />
+36-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-60
+36-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:18-57
+37        <package android:name="com.spotify.music.partners" />
+37-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-62
+37-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:18-59
+38
+39        <intent>
+39-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:18
+40            <action android:name="com.spotify.sso.action.START_AUTH_FLOW" />
+40-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-77
+40-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:21-74
+41
+42            <data android:mimeType="text/plain" />
+42-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-51
+42-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:19-48
+43        </intent>
+44    </queries>
+45
+46    <application
+46-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:25:5-39:19
+47        android:allowBackup="true"
+47-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:26:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.1.0] /home/juanfran/.gradle/caches/transforms-2/files-2.1/df087b5e2f442bf511b04dd5f84bb83e/core-1.1.0/AndroidManifest.xml:24:18-86
+49        android:icon="@mipmap/ic_launcher"
+49-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:27:9-43
+50        android:label="@string/app_name"
+50-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:28:9-41
+51        android:supportsRtl="true"
+51-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:29:9-35
+52        android:theme="@style/AppTheme" >
+52-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:30:9-40
+53        <activity
+53-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:31:9-38:20
+54            android:name="com.spotify.sdk.android.auth.sample.MainActivity"
+54-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:32:13-76
+55            android:configChanges="keyboardHidden|keyboard|orientation|screenSize" >
+55-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:33:13-83
+56            <intent-filter>
+56-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:34:13-37:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:35:17-68
+57-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:35:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:36:17-76
+59-->/home/juanfran/WS/Android/android-auth/auth-sample/src/main/AndroidManifest.xml:36:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-48:20
+63            android:name="com.spotify.sdk.android.auth.LoginActivity"
+63-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-70
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+64-->[:auth-lib] /home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-72
+65        </activity>
+66    </application>
+67
+68</manifest>

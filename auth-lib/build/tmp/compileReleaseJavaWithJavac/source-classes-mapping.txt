@@ -1,0 +1,37 @@
+com/spotify/sdk/android/auth/IntentExtras.java
+ com.spotify.sdk.android.auth.IntentExtras
+com/spotify/sdk/android/auth/app/SpotifyNativeAuthUtil.java
+ com.spotify.sdk.android.auth.app.SpotifyNativeAuthUtil
+com/spotify/sdk/android/auth/webview/LoginDialog.java
+ com.spotify.sdk.android.auth.webview.LoginDialog
+ com.spotify.sdk.android.auth.webview.LoginDialog$1
+ com.spotify.sdk.android.auth.webview.LoginDialog$2
+com/spotify/sdk/android/auth/LoginActivity.java
+ com.spotify.sdk.android.auth.LoginActivity
+com/spotify/sdk/android/auth/AccountsQueryParameters.java
+ com.spotify.sdk.android.auth.AccountsQueryParameters
+com/spotify/sdk/android/auth/AuthorizationHandler.java
+ com.spotify.sdk.android.auth.AuthorizationHandler
+ com.spotify.sdk.android.auth.AuthorizationHandler$OnCompleteListener
+com/spotify/sdk/android/auth/app/SpotifyAuthHandler.java
+ com.spotify.sdk.android.auth.app.SpotifyAuthHandler
+com/spotify/sdk/android/auth/AuthorizationClient.java
+ com.spotify.sdk.android.auth.AuthorizationClient
+ com.spotify.sdk.android.auth.AuthorizationClient$1
+ com.spotify.sdk.android.auth.AuthorizationClient$AuthorizationClientListener
+ com.spotify.sdk.android.auth.AuthorizationClient$PlayStoreParams
+com/spotify/sdk/android/auth/AuthorizationResponse.java
+ com.spotify.sdk.android.auth.AuthorizationResponse
+ com.spotify.sdk.android.auth.AuthorizationResponse$1
+ com.spotify.sdk.android.auth.AuthorizationResponse$Builder
+ com.spotify.sdk.android.auth.AuthorizationResponse$Type
+com/spotify/sdk/android/auth/webview/WebViewAuthHandler.java
+ com.spotify.sdk.android.auth.webview.WebViewAuthHandler
+com/spotify/sdk/android/auth/AuthorizationRequest.java
+ com.spotify.sdk.android.auth.AuthorizationRequest
+ com.spotify.sdk.android.auth.AuthorizationRequest$1
+ com.spotify.sdk.android.auth.AuthorizationRequest$Builder
+com/spotify/sdk/android/auth/webview/WebViewUtils.java
+ com.spotify.sdk.android.auth.webview.WebViewUtils
+com/spotify/sdk/android/auth/BuildConfig.java
+ com.spotify.sdk.android.auth.BuildConfig

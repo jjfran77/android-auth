@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright (c) 2015-2016 Spotify AB
+4
+5    Licensed to the Apache Software Foundation (ASF) under one
+6    or more contributor license agreements.  See the NOTICE file
+7    distributed with this work for additional information
+8    regarding copyright ownership.  The ASF licenses this file
+9    to you under the Apache License, Version 2.0 (the
+10    "License"); you may not use this file except in compliance
+11    with the License.  You may obtain a copy of the License at
+12
+13    http://www.apache.org/licenses/LICENSE-2.0
+14
+15    Unless required by applicable law or agreed to in writing,
+16    software distributed under the License is distributed on an
+17    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+18    KIND, either express or implied.  See the License for the
+19    specific language governing permissions and limitations
+20    under the License.
+21-->
+22<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+23    package="com.spotify.sdk.android.auth" >
+24
+25    <uses-sdk
+26        android:minSdkVersion="16"
+26-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+27        android:targetSdkVersion="30" />
+27-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+28
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:27:5-66
+29-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:27:22-64
+30
+31    <queries>
+31-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:29:5-39:15
+32        <package android:name="com.spotify.music" />
+32-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:30:9-53
+32-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:30:18-50
+33        <package android:name="com.spotify.music.debug" />
+33-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:31:9-59
+33-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:31:18-56
+34        <package android:name="com.spotify.music.canary" />
+34-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:32:9-60
+34-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:32:18-57
+35        <package android:name="com.spotify.music.partners" />
+35-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:33:9-62
+35-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:33:18-59
+36
+37        <intent>
+37-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:35:9-38:18
+38            <action android:name="com.spotify.sso.action.START_AUTH_FLOW" />
+38-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:36:13-77
+38-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:36:21-74
+39
+40            <data android:mimeType="text/plain" />
+40-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:37:13-51
+40-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:37:19-48
+41        </intent>
+42    </queries>
+43
+44    <application>
+44-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:41:5-48:19
+45        <activity
+45-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:43:9-46:20
+46            android:name="com.spotify.sdk.android.auth.LoginActivity"
+46-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:44:13-70
+47            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+47-->/home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:45:13-72
+48        </activity>
+49    </application>
+50
+51</manifest>

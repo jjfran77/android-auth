@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-el/values-el.xml",
+            "map": [
+                {
+                    "source": "/home/juanfran/.gradle/caches/transforms-2/files-2.1/df087b5e2f442bf511b04dd5f84bb83e/core-1.1.0/res/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "507",
+                        "endColumns": "100",
+                        "endOffsets": "603"
+                    }
+                },
+                {
+                    "source": "/home/juanfran/.gradle/caches/transforms-2/files-2.1/70b16e1f56304d5eab9e8b1cac3d33f8/browser-1.4.0/res/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,165,272,397",
+                        "endColumns": "109,106,124,109",
+                        "endOffsets": "160,267,392,502"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/juanfran/WS/Android/android-auth/auth-lib/build/intermediates/res/merged/release/values-el/values-el.xml",
+            "map": [
+                {
+                    "source": "/home/juanfran/.gradle/caches/transforms-2/files-2.1/df087b5e2f442bf511b04dd5f84bb83e/core-1.1.0/res/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "507",
+                        "endColumns": "100",
+                        "endOffsets": "603"
+                    }
+                },
+                {
+                    "source": "/home/juanfran/.gradle/caches/transforms-2/files-2.1/70b16e1f56304d5eab9e8b1cac3d33f8/browser-1.4.0/res/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,165,272,397",
+                        "endColumns": "109,106,124,109",
+                        "endOffsets": "160,267,392,502"
+                    }
+                }
+            ]
+        }
+    ]
+}

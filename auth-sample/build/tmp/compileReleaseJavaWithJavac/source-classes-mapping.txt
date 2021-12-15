@@ -1,0 +1,6 @@
+com/spotify/sdk/android/authentication/sample/BuildConfig.java
+ com.spotify.sdk.android.authentication.sample.BuildConfig
+com/spotify/sdk/android/auth/sample/MainActivity.java
+ com.spotify.sdk.android.auth.sample.MainActivity
+ com.spotify.sdk.android.auth.sample.MainActivity$1
+ com.spotify.sdk.android.auth.sample.MainActivity$2

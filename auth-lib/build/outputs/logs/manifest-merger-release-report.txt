@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:24:1-50:12
+INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:24:1-50:12
+INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:24:1-50:12
+	package
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:24:11-49
+		INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+		INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:25:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:27:22-64
+queries
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:29:5-39:15
+package#com.spotify.music
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:30:9-53
+	android:name
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:30:18-50
+package#com.spotify.music.debug
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:31:9-59
+	android:name
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:31:18-56
+package#com.spotify.music.canary
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:32:9-60
+	android:name
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:32:18-57
+package#com.spotify.music.partners
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:33:9-62
+	android:name
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:33:18-59
+intent#action:name:com.spotify.sso.action.START_AUTH_FLOW+data:mimeType:text/plain
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:35:9-38:18
+action#com.spotify.sso.action.START_AUTH_FLOW
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:36:13-77
+	android:name
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:36:21-74
+data
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:37:13-51
+	android:mimeType
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:37:19-48
+application
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:41:5-48:19
+activity#com.spotify.sdk.android.auth.LoginActivity
+ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:43:9-46:20
+	android:theme
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:45:13-72
+	android:name
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml:44:13-70
+uses-sdk
+INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+		INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+		ADDED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml
+		INJECTED from /home/juanfran/WS/Android/android-auth/auth-lib/src/main/AndroidManifest.xml

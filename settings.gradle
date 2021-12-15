@@ -1,0 +1,2 @@
+include ':auth-lib', ':auth-sample'
+include ':myapplication'
